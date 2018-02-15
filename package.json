@@ -1,0 +1,23 @@
+{
+    "name": "proxyserver",
+    "version": "1.0.0",
+    "description": "simple proxy server",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/centrodph/proxyserver.git"
+    },
+    "author": "Gerardo Perrucci",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/centrodph/proxyserver/issues"
+    },
+    "homepage": "https://github.com/centrodph/proxyserver#readme",
+    "dependencies": {
+        "http-proxy": "^1.16.2"
+    }
+}
